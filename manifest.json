@@ -1,0 +1,14 @@
+{
+  "manifest_version": 2,
+  "name": "Google Docs Sidebar Hider",
+  "version": "1.0",
+  "description": "Automatically hides the tabs & outlines sidebar in Google Docs",
+  "content_scripts": [
+    {
+      "matches": ["*://docs.google.com/document/*"],
+      "js": ["content.js"],
+      "run_at": "document_end"
+    }
+  ],
+  "permissions": ["*://docs.google.com/*"]
+}
