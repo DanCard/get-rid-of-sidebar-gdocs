@@ -5,7 +5,8 @@
       "Bash(git remote add:*)",
       "Bash(git push:*)",
       "WebSearch",
-      "WebFetch(domain:extensionworkshop.com)"
+      "WebFetch(domain:extensionworkshop.com)",
+      "Bash(zip:*)"
     ],
     "deny": [],
     "ask": []
